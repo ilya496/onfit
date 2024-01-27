@@ -1,0 +1,30 @@
+@use "../abstract" as *;
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+body {
+  color: $dark-text-color;
+  background-color: $light-text-color;
+}
+
+.container {
+  width: 1250px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.btn-reset {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  cursor: pointer;
+}

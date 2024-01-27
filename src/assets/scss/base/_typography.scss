@@ -1,0 +1,88 @@
+@use "../abstract" as *;
+
+@font-face {
+  font-family: "Roboto";
+  src: local("Roboto-Regular"),
+    url($roboto-font-path + "Roboto-Regular.woff2") format("woff2"),
+    url($roboto-font-path + "Roboto-Regular.woff") format("woff"),
+    url($roboto-font-path + "Roboto-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: local("Roboto-Bold"), 
+    url($roboto-font-path + "Roboto-Bold.woff2") format("woff2"),
+    url($roboto-font-path + "Roboto-Bold.woff") format("woff"),
+    url($roboto-font-path + "Roboto-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: local("Roboto-Medium"),
+    url($roboto-font-path + "Roboto-Medium.woff2") format("woff2"),
+    url($roboto-font-path + "Roboto-Medium.woff") format("woff"), 
+    url($roboto-font-path + "Roboto-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+body {
+  font-family: $font-family-roboto;
+  font-weight: normal;
+  font-size: 1rem;
+  line-height: 1.5;
+
+}
+
+.section-title {
+  font-size: 2.5rem;
+  font-weight: 500;
+  line-height: 1.2;
+  margin-bottom: 1.5rem;
+}
+
+.section-subtitle {
+  font-size: 1.5rem;
+  line-height: 1.2;
+  margin-bottom: 1.5rem;
+}
+
+.section-text {
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-bottom: 1.5rem;
+}
+
+.section-link {
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-bottom: 1.5rem;
+  color: $secondary-color-2;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.section-link:hover {
+  color: $hover-color;
+  text-decoration: underline;
+}
+
+.section-link:focus {
+  color: $hover-color;
+  text-decoration: underline;
+}
+
+.section-link:active {
+  color: $active-color;
+  text-decoration: underline;
+}
+
+.section-link:visited {
+  color: $active-color;
+  text-decoration: none;
+}
