@@ -1,0 +1,31 @@
+@use '../abstract' as *;
+
+$qrcode-link-color: $secondary-color-2;
+
+.qrcode-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.qrcode {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+
+  .qrcode__title {
+    font-size: 1.5rem;
+    font-weight: 500;
+  }
+
+  .qrcode__link {
+    font-size: 1.125rem;
+    color: $qrcode-link-color;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}

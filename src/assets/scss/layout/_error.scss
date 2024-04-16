@@ -1,20 +1,20 @@
-.error-container {
+.error {
   display: flex;
-  padding: 2rem 0;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
+  align-items: center;
+  height: calc(100vh - 7rem); 
 
-  .error-img {
-    max-width: 25%;
-  }
+  .container {
+    text-align: center;
 
-  .section-text {
-    font-size: 1.12rem;
-    margin-bottom: .75rem;
-    font-weight: 500;
-  }
-  .section-link {
-    font-size: 1.12rem; 
+    .section-text {
+      font-size: 1.125rem;
+      margin-bottom: 0.75rem;
+      font-weight: 500;
+    }
+
+    .section-link {
+      font-size: 1.125rem;
+    }
   }
 }
