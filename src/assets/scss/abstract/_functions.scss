@@ -1,0 +1,7 @@
+@use './variables' as *;
+
+// @return {Number} - The height of the content area
+//  - This function calculates the height of the content area by subtracting the header height from the viewport height.
+@function content-height() {
+  @return calc(100vh - $header-height);
+}

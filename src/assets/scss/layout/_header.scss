@@ -1,7 +1,7 @@
 @use "../abstract" as *;
 
 .header {
-  height: 7rem;
+  height: $header-height;
   padding: 2rem 0;
 
   .container {
