@@ -1,15 +1,16 @@
 @use "../abstract" as *;
 
 .btn {
-  padding: 1rem 1.5rem;
   border-radius: $border-radius;
   font-weight: 700;
   line-height: 1.375rem;
   letter-spacing: $letter-spacing;
   color: $secondary-color-2;
   border: 1px solid transparent;
-  transition: color ease-in-out .3s, 
-    background-color ease-in-out .3s, border-color ease-in-out .3s;
+  transition: 
+    color ease-in-out .3s, 
+    background-color ease-in-out .3s, 
+    border-color ease-in-out .3s;
 
   &__arrow-icon {
     margin-left: 1rem;
@@ -25,6 +26,7 @@
 }
 
 .btn--fill {
+  padding: .875rem 1.5rem;
   background-color: $secondary-color-2;
   color: $light-text-color;
 
@@ -36,8 +38,8 @@
 }
 
 .btn--outline {
+  padding: .875rem 1.5rem;
   border-color: $secondary-color-2;
-  color: $secondary-color-2;
 
   &:hover {
     background-color: $secondary-color-2;

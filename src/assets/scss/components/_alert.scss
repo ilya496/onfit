@@ -1,0 +1,25 @@
+@use "../abstract" as *;
+
+.alert {
+  @extend %alert-base;
+
+  &.alert-success {
+    @extend %alert-success;
+  }
+
+  &.alert-error {
+    @extend %alert-error;
+  }
+
+  &.alert-warning {
+    @extend %alert-warning;
+  }
+
+  &.alert-info {
+    @extend %alert-info;
+  }
+
+  &--invisible {
+    display: none;
+  }
+}

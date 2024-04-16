@@ -1,5 +1,11 @@
 @use "../abstract" as *;
 
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 a {
   color: inherit;
   text-decoration: none;
@@ -16,10 +22,18 @@ body {
   background-color: $light-text-color;
 }
 
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
 .container {
-  width: 1250px;
+  max-width: 1440px;
   margin: 0 auto;
-  padding: 0 15px;
+  padding: 0 1rem;
 }
 
 .btn-reset {

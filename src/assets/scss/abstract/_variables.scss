@@ -1,6 +1,7 @@
 $dark-text-color: #1a1a1a;
 $light-text-color: #ffffff;
 $secondary-text-color: #737373;
+$border-color: #ccc;
 
 $primary-color: #ff4d4d;
 $secondary-color-1: #ffa500;
@@ -15,3 +16,22 @@ $font-family-roboto: "Roboto", sans-serif;
 $border-radius: 0.3125rem;
 
 $letter-spacing: 0.0125rem;
+
+// Alert
+$alert-padding: 1rem;
+
+$alert-success-bg: #d4edda;
+$alert-success-border: #c3e6cb;
+$alert-success-text: #155724;
+
+$alert-error-bg: #f8d7da;
+$alert-error-border: #f5c6cb;
+$alert-error-text: #721c24;
+
+$alert-warning-bg: #fff3cd;
+$alert-warning-border: #ffeeba;
+$alert-warning-text: #856404;
+
+$alert-info-bg: #d1ecf1;
+$alert-info-border: #bee5eb;
+$alert-info-text: #0c5460;

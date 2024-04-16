@@ -1,0 +1,20 @@
+.error-container {
+  display: flex;
+  padding: 2rem 0;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  .error-img {
+    max-width: 25%;
+  }
+
+  .section-text {
+    font-size: 1.12rem;
+    margin-bottom: .75rem;
+    font-weight: 500;
+  }
+  .section-link {
+    font-size: 1.12rem; 
+  }
+}

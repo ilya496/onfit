@@ -1,0 +1,38 @@
+@use "./variables" as *;
+
+%alert-base {
+  width: 100%;
+  padding: $alert-padding;
+  margin: 0;
+  margin-bottom: 1rem;
+  border: 1px solid transparent;
+  border-radius: $border-radius;
+}
+
+%alert-success {
+  @extend %alert-base;
+  background-color: $alert-success-bg;
+  border-color: $alert-success-border;
+  color: $alert-success-text;
+}
+
+%alert-error {
+  @extend %alert-base;
+  background-color: $alert-error-bg;
+  border-color: $alert-error-border;
+  color: $alert-error-text;
+}
+
+%alert-warning {
+  @extend %alert-base;
+  background-color: $alert-warning-bg;
+  border-color: $alert-warning-border;
+  color: $alert-warning-text;
+}
+
+%alert-info {
+  @extend %alert-base;
+  background-color: $alert-info-bg;
+  border-color: $alert-info-border;
+  color: $alert-info-text;
+}

@@ -1,20 +1,20 @@
-import { Link } from "react-router-dom"
-import heartImg from "../assets/images/heart.png";
+import { Link } from "react-router-dom";
 
 function NotFoundPage() {
   return (
     <div className="container error-container">
-      <img src={heartImg} alt="Broken heart" className="heart" />
-      <p className="greeting">We are sorry, but</p>
-      <p className="greeting">This page does not exist ;(</p>
-      <p className="error-info">
+      <h1 className="section-title">404</h1>
+      <p className="section-text">
+        We are sorry, but this page does not exist ;(
+      </p>
+      <p className="section-text">
         Go back to the{" "}
-        <Link to="/" className="account-link">
+        <Link to="/" className="section-link">
           home page
         </Link>
       </p>
-  </div>
-  )
+    </div>
+  );
 }
 
-export default NotFoundPage
+export default NotFoundPage;
