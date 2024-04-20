@@ -1,0 +1,15 @@
+@use "../abstract" as *;
+
+.login {
+  min-height: content-height();
+}
+
+.login__form {
+  .form__group {
+    margin-bottom: 1.25rem;
+  }
+
+  .form__btn {
+    margin-bottom: 1.25rem;
+  }
+}

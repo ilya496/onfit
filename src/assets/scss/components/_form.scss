@@ -1,5 +1,17 @@
 @use "../abstract" as *;
 
+%form-success {
+  border-color: $alert-success-border;
+  background-color: $alert-success-bg;
+  color: $alert-success-text;
+}
+
+%form-error {
+  border-color: $alert-error-border;
+  background-color: $alert-error-bg;
+  color: $alert-error-text;
+}
+
 .form {
   display: flex;
   flex-direction: column;
@@ -23,15 +35,13 @@
     display: flex;
     flex-direction: column;
     gap: 0.3125rem;
-    margin-bottom: 1.25rem;
   }
 
   &__input {
-    padding: 0.625rem 0.875rem;
+    padding: 0.725rem 1rem;
     border: 1px solid $border-color;
     border-radius: $border-radius;
-    font-size: 1rem;
-
+  
     &:focus {
       outline: none;
       border-color: $secondary-color-2;
@@ -40,7 +50,6 @@
 
   &__btn {
     width: 100%;
-    margin-bottom: 1.25rem;
 
     &:hover {
       background-color: $hover-color;
@@ -54,5 +63,14 @@
     &:hover {
       text-decoration: underline;
     }
+  }
+
+  // styles for form states
+  &--success {
+    @extend %form-success;
+  }
+
+  &--error {
+    @extend %form-error;
   }
 }

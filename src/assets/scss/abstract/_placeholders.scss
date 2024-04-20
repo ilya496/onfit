@@ -36,3 +36,10 @@
   border-color: $alert-info-border;
   color: $alert-info-text;
 }
+
+%btn-reset {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  cursor: pointer;
+}

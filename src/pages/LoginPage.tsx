@@ -63,7 +63,7 @@ function LoginPage() {
     setPassword(e.target.value);
 
   return (
-    <>
+    <div className="login">
       {isLoading && <Loader />}
       <div className="container">
         <h2 className="section-title">Welcome back! Please sign in.</h2>
@@ -82,7 +82,7 @@ function LoginPage() {
             Login successful!
           </div>
         )}
-        <form onSubmit={handleSubmit} className="form">
+        <form onSubmit={handleSubmit} className="form login__form">
           <h3 className="form__title">Login form</h3>
           <div className="form__group">
             <label htmlFor="email">Email:</label>
@@ -114,7 +114,7 @@ function LoginPage() {
               Forgot password?
             </Link>
           </div>
-          <button type="submit" className="btn btn-reset btn--fill form__btn">
+          <button type="submit" className="btn btn--fill form__btn">
             Login
           </button>
           <Link className="form__link" to="/register">
@@ -122,7 +122,7 @@ function LoginPage() {
           </Link>
         </form>
       </div>
-    </>
+    </div>
   );
 }
 

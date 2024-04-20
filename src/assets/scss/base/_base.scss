@@ -22,6 +22,19 @@ body {
   background-color: $light-text-color;
 }
 
+section {
+  padding: $section-padding 0;
+  margin: $section-padding 0;
+}
+
+section:first-of-type {
+  margin-top: 0;
+}
+
+section:last-of-type {
+  margin-bottom: 0;
+}
+
 h1, h2, h3, h4, h5, h6 {
   margin: 0;
 }
@@ -34,11 +47,4 @@ p {
   max-width: 1440px;
   margin: 0 auto;
   padding: 0 1rem;
-}
-
-.btn-reset {
-  border: none;
-  outline: none;
-  background-color: transparent;
-  cursor: pointer;
 }

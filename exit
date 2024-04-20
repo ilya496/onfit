@@ -1,0 +1,29 @@
+[33mcommit 795936d10466bfa12b2874578d4719c060b6a33d[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: Ilja Novak <birukov0608@gmail.com>
+Date:   Tue Apr 16 22:14:26 2024 +0200
+
+    fixed header height and content area height
+
+[33mcommit 150d8229d70764ff30cf7742ff62825ce23c3cf4[m
+Author: Ilja Novak <birukov0608@gmail.com>
+Date:   Tue Apr 16 22:03:21 2024 +0200
+
+    404 page changed
+
+[33mcommit 5329179a20e2cc391133161719abac454fe7764e[m
+Author: Ilja Novak <birukov0608@gmail.com>
+Date:   Tue Apr 16 20:13:52 2024 +0200
+
+    added working login page
+
+[33mcommit 6d3d2eacd1372988d59e9c956b83c6a0cf65a0ca[m
+Author: Ilja Novak <birukov0608@gmail.com>
+Date:   Sat Jan 27 11:17:06 2024 +0100
+
+    first commit
+
+[33mcommit 385a50b5eda66bf42a641a58588d626b13142575[m
+Author: Ilja Novak <birukov0608@gmail.com>
+Date:   Sat Jan 27 11:15:43 2024 +0100
+
+    first commit

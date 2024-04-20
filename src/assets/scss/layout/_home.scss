@@ -3,3 +3,33 @@
 .main {
   min-height: content-height();
 }
+
+// Hero section
+.hero {
+  background-color: $dark-text-color;
+  color: $light-text-color;
+}
+
+// Subscribe section
+.subscribe {
+  color: $light-text-color;
+  background-color: $primary-color;
+
+  &__content {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__description {
+    max-width: 75%;
+  }
+
+  &__form {
+    width: 100%;
+    flex-direction: row;
+
+    .form__input {
+      margin-right: 1.25rem;
+    }
+  }
+}
